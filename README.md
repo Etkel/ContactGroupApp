@@ -13,4 +13,4 @@
 …
 ]
 
-JsonCOncats.txt - пример JSON чтобы закинуть на сайт 
+JsonConcats.txt - пример JSON чтобы закинуть на сайт 
