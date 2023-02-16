@@ -1,0 +1,38 @@
+[
+  {
+    "group": {
+      "name": "Json",
+      "contacts": [
+        
+      ]
+    },
+    "name": "Ollan",
+    "surname": "Jonsan",
+    "phone": "123456789",
+    "email": "blabla@bla.com"
+  },
+  {
+    "group": {
+      "name": "Json",
+      "contacts": [
+        
+      ]
+    },
+    "name": "Bilbo",
+    "surname": "Bolons",
+    "phone": "987654321",
+    "email": "blabla2@bla.com"
+  },
+  {
+    "group": {
+      "name": "Json",
+      "contacts": [
+        
+      ]
+    },
+    "name": "MR",
+    "surname": "IMissisSmith",
+    "phone": "645645615",
+    "email": "blabla3@bla.com"
+  }
+]
