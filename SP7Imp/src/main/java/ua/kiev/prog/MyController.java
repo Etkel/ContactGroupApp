@@ -129,9 +129,8 @@ public class MyController {
     @PostMapping(value = "/hm")
     public String groupHm(@RequestParam(value = "file") MultipartFile file) {
         List<Contact> contacts = contactService.listFromJSON(file);
-        boolean checker = true;
         for (int i = 0; i < contacts.size(); i++) {
-            if (!contactService.findNameGroups().contains(contacts.get(i).getGroup().getName()) == checker) {
+            if (!contactService.findNameGroups().contains(contacts.get(i).getGroup().getName())) {
                 contactService.addGroup(contacts.get(i).getGroup());
                 contactService.addContact(contacts.get(i));
             } else {
